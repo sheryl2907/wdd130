@@ -2,30 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2a2a72   ;
+  --primary-color: #4c7c5b   ;
   --secondary-color: #FFA400 ;
   --accent1-color: #009FFD;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto Condensed";
-  --paragraph-font: "Roboto Condensed";
+  --paragraph-font: "Open Sans";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: darkblue;  /* headlines on a white background */ 
+  --headline-color-on-white: rgb(52, 67, 207);  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #000000  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #7ac8c8  ;
+  --nav-link-color: #000000;
+  --nav-background-color: #3a7e40;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #d15304;
 }
 
 
