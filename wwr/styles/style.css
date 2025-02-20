@@ -109,3 +109,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+#mountains {
+  margin:0 auto
+}
